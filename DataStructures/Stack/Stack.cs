@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace DataStructureReview
 {
-    public class Stack<T>
+    public class Stack<T> : IStack<T>
     {
 
         private int top = -1;

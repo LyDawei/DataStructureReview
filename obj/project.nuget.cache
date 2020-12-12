@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pWM7BdQPzcJjfTwub8cMzI/8b6gDTdb14idKjkdLgnQbjw7fwJPJSE2guBnSrgJuxqUxKixj/RB390x77CnomA==",
+  "dgSpecHash": "ImeBUV+pg56NhtRp1ONioLM2cwkz1ZlwC10PTFj+ijDho910tIhew1qdjGfDwacOYWNL7XuTfeCXPmGd9rz8+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\David\\repos\\DataStructureReview\\algo-prep.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\dly58\\repos\\DataStructureReview\\DataStructureReview.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dly58\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\dly58\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\dly58\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512",
+    "C:\\Users\\dly58\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.9\\microsoft.netcore.app.host.win-x64.3.1.9.nupkg.sha512"
+  ],
   "logs": []
 }
