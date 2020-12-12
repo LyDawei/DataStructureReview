@@ -13,5 +13,11 @@ namespace DataStructureReview
             this.data = data;
             next = null;
         }
+
+        public override string ToString()
+        {
+            return $"data: {data}\nnext: {next.data}";
+        }
+
     }
 }

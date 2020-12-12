@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ImeBUV+pg56NhtRp1ONioLM2cwkz1ZlwC10PTFj+ijDho910tIhew1qdjGfDwacOYWNL7XuTfeCXPmGd9rz8+w==",
+  "dgSpecHash": "r3oVc7vXecs1LsCLeRdqaOqLejkRmisqU8dG7e0egqLxFzcLhrOmikv7JBmkvItVsfk13ebr20aLYVc5doIQRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\dly58\\repos\\DataStructureReview\\DataStructureReview.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dly58\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\dly58\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\dly58\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512",
-    "C:\\Users\\dly58\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.9\\microsoft.netcore.app.host.win-x64.3.1.9.nupkg.sha512"
+    "C:\\Users\\dly58\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\dly58\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

@@ -6,23 +6,22 @@ namespace DataStructureReview
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Testing my Stack.");
+            Console.WriteLine("Testing LinkedList");
 
-            var stack = new Stack<int>();
-            Console.WriteLine($"Stack Capacity: {stack.Capacity}");
+            var list = new LinkedList<int>();
 
-            Console.WriteLine("Pushing values: 1 2 3 4 5 6 7 8 9 10");
-            for (var i = 1; i <= 10; i++)
+            for (var i = 0; i < 10; i++)
             {
-                stack.Push(i);
+                list.PushBack(i + 1);
             }
 
 
-            Console.WriteLine("Pushing new value over capacity...");
-            stack.Push(11);
+            Console.WriteLine(list.ToString());
 
-            Console.WriteLine($"New Capacity: {stack.Capacity}");
-            Console.WriteLine(stack.ToString());
+            list.Remove(5);
+
+            Console.WriteLine(list.ToString());
+
 
         }
     }
