@@ -15,7 +15,7 @@ namespace DataStructureReview
             back = 0;
         }
 
-        public T PopFront()
+        public T Dequeue()
         {
             var retVal = collection[0];
             var _collection = new T[Length];
@@ -28,7 +28,7 @@ namespace DataStructureReview
             return retVal;
         }
 
-        public void Push(T item)
+        public void Enqueue(T item)
         {
             if (back == Length - 1)
             {

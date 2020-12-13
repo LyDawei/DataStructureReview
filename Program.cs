@@ -6,31 +6,45 @@ namespace DataStructureReview
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Testing Binary Tree");
+            Console.WriteLine("Testing BubbleSort");
+            Console.WriteLine("==================");
 
-            var tree = new BinaryTree(45);
+            var arr = new int[10];
+            var rand = new Random();
 
-            tree.Insert(25);
-            tree.Insert(15);
-            tree.Insert(5);
-            tree.Insert(35);
-            tree.Insert(77);
-            tree.Insert(88);
-            tree.Insert(55);
-            tree.Insert(65);
+            for (var i = 0; i < arr.Length; i++)
+            {
+                arr[i] = rand.Next() % 50;
+            }
 
-            Console.WriteLine("In Order:");
-            tree.InOrder(tree.Head);
+            arr.Entries();
 
-            Console.WriteLine("=======================");
+            Console.WriteLine();
 
-            Console.WriteLine("PreOrder:");
-            tree.PreOrder(tree.Head);
 
-            Console.WriteLine("=======================");
-            Console.WriteLine("PostOrder:");
-            tree.PostOrder(tree.Head);
+            arr.BubbleSort();
 
+            arr.Entries();
+
+
+
+            Console.WriteLine("Testing MergeSort");
+            Console.WriteLine("==================");
+
+            var arr2 = new int[25];
+
+            for (var i = 0; i < 25; i++)
+            {
+                arr2[i] = rand.Next() % 60 + 1;
+            }
+
+            arr2.Entries();
+
+            Console.WriteLine();
+
+            arr2 = arr2.MergeSort();
+
+            arr2.Entries();
         }
     }
 }

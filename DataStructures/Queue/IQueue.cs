@@ -2,8 +2,8 @@ namespace DataStructureReview
 {
     public interface IQueue<T>
     {
-        void Push(T item);
-        T PopFront();
+        void Enqueue(T item);
+        T Dequeue();
 
     }
 }
