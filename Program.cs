@@ -6,22 +6,30 @@ namespace DataStructureReview
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Testing LinkedList");
+            Console.WriteLine("Testing Binary Tree");
 
-            var list = new LinkedList<int>();
+            var tree = new BinaryTree(45);
 
-            for (var i = 0; i < 10; i++)
-            {
-                list.PushBack(i + 1);
-            }
+            tree.Insert(25);
+            tree.Insert(15);
+            tree.Insert(5);
+            tree.Insert(35);
+            tree.Insert(77);
+            tree.Insert(88);
+            tree.Insert(55);
+            tree.Insert(65);
 
+            Console.WriteLine("In Order:");
+            tree.InOrder(tree.Head);
 
-            Console.WriteLine(list.ToString());
+            Console.WriteLine("=======================");
 
-            list.Remove(5);
+            Console.WriteLine("PreOrder:");
+            tree.PreOrder(tree.Head);
 
-            Console.WriteLine(list.ToString());
-
+            Console.WriteLine("=======================");
+            Console.WriteLine("PostOrder:");
+            tree.PostOrder(tree.Head);
 
         }
     }
